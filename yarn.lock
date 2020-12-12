@@ -1707,10 +1707,15 @@ async-limiter@~1.0.0:
   resolved "https://registry.npm.taobao.org/async-limiter/download/async-limiter-1.0.1.tgz?cache=0&sync_timestamp=1574272018408&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fasync-limiter%2Fdownload%2Fasync-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
 
-async-validator@^1.10.0, async-validator@^1.12.2:
+async-validator@^1.12.2:
   version "1.12.2"
   resolved "https://registry.npm.taobao.org/async-validator/download/async-validator-1.12.2.tgz?cache=0&sync_timestamp=1575620599372&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fasync-validator%2Fdownload%2Fasync-validator-1.12.2.tgz#beae671e7174d2938b7b4b69d2fb7e722b7fd72c"
   integrity sha1-vq5nHnF00pOLe0tp0vt+cit/1yw=
+
+async-validator@^3.3.0:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/async-validator/-/async-validator-3.5.1.tgz#cd62b9688b2465f48420e27adb47760ab1b5559f"
+  integrity sha512-DDmKA7sdSAJtTVeNZHrnr2yojfFaoeW8MfQN8CeuXg8DDQHTqKk9Fdv38dSvnesHoO8MUwMI2HphOeSyIF+wmQ==
 
 async@^2.6.2:
   version "2.6.3"
@@ -5097,9 +5102,9 @@ inherits@2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@^1.3.4:
-  version "1.3.5"
-  resolved "https://registry.npm.taobao.org/ini/download/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha1-7uJfVtscnsYIXgwid4CD9Zar+Sc=
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 inquirer@^6.2.2, inquirer@^6.3.1:
   version "6.5.2"
@@ -9471,12 +9476,12 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-view-design@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.npm.taobao.org/view-design/download/view-design-4.1.2.tgz#61e8f2d0ee2df2ccf24340b71b15fa4ec6e088ab"
-  integrity sha1-Yejy0O4t8szyQ0C3GxX6TsbgiKs=
+view-design@^4.2.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/view-design/-/view-design-4.4.0.tgz#c3eef5abdacd70601ed5efc9028b006657e66a8d"
+  integrity sha512-2+xbda6/USUm9Pn+D25NPsIBg7XVhkFC90Ycs0GcFQ4AHZ1QRwDGOj0PGA3eeL4yuVpigdDfmwmNJAoczYXlPA==
   dependencies:
-    async-validator "^1.10.0"
+    async-validator "^3.3.0"
     deepmerge "^2.2.1"
     element-resize-detector "^1.2.0"
     js-calendar "^1.2.3"
